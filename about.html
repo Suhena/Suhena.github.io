@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(231, 185, 225, 0.2);
+  background-color: rgb(242, 225, 247);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #aa75d6;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(131, 122, 122);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(247, 245, 245);
+  background-color: rgb(83, 23, 151);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(41, 2, 51);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p> We are a premier technical and management institution providing the best in class learning solutions for developing competent professionals.Atria Institute of Technology is committed to 
+
+    Creating the right ambiance to attract the best human resources,
+   Collaborate with leading institutions and industry and 
+    Nurture students with teaching, learning engagements, and research.</p>
+  <p> </p>
+</div>
+
+<h2 style="text-align:center; color:white;">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Images/IMG_5277.JPG" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Mike Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>contact:(+91)45627894</p>
+        <p>Mike@Yahoo.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Images/IMG_5274.JPG" alt="Olivia" style="width:100%">
+      <div class="container">
+        <h2>Olivia Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Marketting Head<br><br></p>
+        <p>Olivia@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="Images/IMG_5275.JPG" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Ava Richard</h2>
+        <p class="title">Designer</p>
+        <p>Motion designer & Web Developer</p>
+        <p>Ava@Outlook.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Images/IMG_5276.JPG" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <p class="title">Operations Manager</p>
+          <p>(+91)34567892</p>
+          <p>jane@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="Images/woman.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <img src="Images/IMG_5279.JPG" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+body {
+
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(14, 7, 0);
+    font-family: 'lora',serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'candal',serif;
+    color: blanchedalmond;
+    margin: 5px;
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+}
+header {
+    background-color: rgb(31, 34, 33);
+    height: 66px;
+}
+
+header * {
+    color: white;
+}
+
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+   /*border: 1px solid red;*/
+}
+
+header .logo-text{
+    margin: 15px;
+    font-family: 'candal',serif;
+}
+
+header .logo-text span {
+    color: rgb(185, 156, 179);
+}
+
+header ul{
+    float:right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    float:left;
+}
+
+header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header ul li a:hover {
+    background: rgb(66, 66, 64);
+}
+
+header .menu-toggle {
+display: none;
+}
+
+.page-wrapper a:hover {
+    color: rgb(230, 165, 243);
+
+}
+
+/* POST SLIDER*/
+.post-slider{
+    position: relative;
+   /*border: 1px solid red;*/
+}
+
+.post-slider{
+    position: relative;
+   /*border: 1px solid red;*/
+}
+
+.post-slider{
+    position: relative;
+   /*border: 1px solid red;*/
+}
+
+.post-slider .next {
+position:absolute;
+top: 50%;
+right: 30px;
+color: blanchedalmond;
+font-size: 2em;
+cursor: pointer;
+}
+
+.post-slider .next {
+    position:absolute;
+    top: 50%;
+    right: 30px;
+    color: blanchedalmond;
+    font-size: 2em;
+    cursor: pointer;
+}
+.post-slider .next {
+    position:absolute;
+    top: 50%;
+    right: 30px;
+    color: blanchedalmond;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.post-slider .prev {
+    position: absolute;
+    top:50%;
+    left: 30px;
+    color: blanchedalmond;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.post-slider .prev {
+    position: absolute;
+    top:50%;
+    left: 30px;
+    color: blanchedalmond;
+    font-size: 2em;
+    cursor: pointer;
+}
+.post-slider .prev {
+    position: absolute;
+    top:50%;
+    left: 30px;
+    color: blanchedalmond;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.post-slider .slider-title {
+
+    text-align:center;
+    margin: 30px auto;
+
+}
+
+.post-slider .slider-title {
+
+    text-align:center;
+    margin: 30px auto;
+
+}
+
+.post-slider .slider-title {
+
+    text-align:center;
+    margin: 30px auto;
+
+}
+
+.post-slider .post-wrapper {
+  /*border: 1px solid rgb(185, 156, 179);*/
+  width: 84%;  
+  padding: 10px 0px 10px 0px;
+  height: 350px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+
+
+.post-slider .post-wrapper .post {
+    display: inline-block;
+    width: 300px;
+    height:330px;
+    margin: 0px 10px;
+    background-color: rgb(3, 0, 0);
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem rgb(225, 125, 245);
+}
+
+
+
+.post-slider .post-wrapper .post .post-info {
+    height: 130px;
+    /*border: 1px solid blueviolet;*/
+    padding: 0px 5px;
+    color: cornsilk;
+}
+
+
+.post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: 260px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
